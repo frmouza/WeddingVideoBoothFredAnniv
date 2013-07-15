@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B91D6311794672F000CD766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B91D6301794672F000CD766 /* UIKit.framework */; };
+		9B91D6331794672F000CD766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B91D6321794672F000CD766 /* Foundation.framework */; };
+		9B91D6351794672F000CD766 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B91D6341794672F000CD766 /* CoreGraphics.framework */; };
+		9B91D63B1794672F000CD766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B91D6391794672F000CD766 /* InfoPlist.strings */; };
+		9B91D63D1794672F000CD766 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91D63C1794672F000CD766 /* main.m */; };
+		9B91D6411794672F000CD766 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91D6401794672F000CD766 /* AppDelegate.m */; };
+		9B91D6431794672F000CD766 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B91D6421794672F000CD766 /* Default.png */; };
+		9B91D6451794672F000CD766 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B91D6441794672F000CD766 /* Default@2x.png */; };
+		9B91D6471794672F000CD766 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B91D6461794672F000CD766 /* Default-568h@2x.png */; };
+		9B91D64A1794672F000CD766 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91D6491794672F000CD766 /* ViewController.m */; };
+		9B91D64D1794672F000CD766 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B91D64B1794672F000CD766 /* ViewController.xib */; };
+		9B91D6551794672F000CD766 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B91D6541794672F000CD766 /* SenTestingKit.framework */; };
+		9B91D6561794672F000CD766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B91D6301794672F000CD766 /* UIKit.framework */; };
+		9B91D6571794672F000CD766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B91D6321794672F000CD766 /* Foundation.framework */; };
+		9B91D65F1794672F000CD766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B91D65D1794672F000CD766 /* InfoPlist.strings */; };
+		9B91D6621794672F000CD766 /* WeddingVideoBoothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91D6611794672F000CD766 /* WeddingVideoBoothTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B91D6581794672F000CD766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B91D6251794672F000CD766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B91D62C1794672F000CD766;
+			remoteInfo = WeddingVideoBooth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B91D62D1794672F000CD766 /* WeddingVideoBooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeddingVideoBooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B91D6301794672F000CD766 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B91D6321794672F000CD766 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B91D6341794672F000CD766 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B91D6381794672F000CD766 /* WeddingVideoBooth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeddingVideoBooth-Info.plist"; sourceTree = "<group>"; };
+		9B91D63A1794672F000CD766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B91D63C1794672F000CD766 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B91D63E1794672F000CD766 /* WeddingVideoBooth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeddingVideoBooth-Prefix.pch"; sourceTree = "<group>"; };
+		9B91D63F1794672F000CD766 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B91D6401794672F000CD766 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B91D6421794672F000CD766 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9B91D6441794672F000CD766 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9B91D6461794672F000CD766 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9B91D6481794672F000CD766 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B91D6491794672F000CD766 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B91D64C1794672F000CD766 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9B91D6531794672F000CD766 /* WeddingVideoBoothTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeddingVideoBoothTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B91D6541794672F000CD766 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9B91D65C1794672F000CD766 /* WeddingVideoBoothTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeddingVideoBoothTests-Info.plist"; sourceTree = "<group>"; };
+		9B91D65E1794672F000CD766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B91D6601794672F000CD766 /* WeddingVideoBoothTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeddingVideoBoothTests.h; sourceTree = "<group>"; };
+		9B91D6611794672F000CD766 /* WeddingVideoBoothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeddingVideoBoothTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B91D62A1794672F000CD766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B91D6311794672F000CD766 /* UIKit.framework in Frameworks */,
+				9B91D6331794672F000CD766 /* Foundation.framework in Frameworks */,
+				9B91D6351794672F000CD766 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B91D64F1794672F000CD766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B91D6551794672F000CD766 /* SenTestingKit.framework in Frameworks */,
+				9B91D6561794672F000CD766 /* UIKit.framework in Frameworks */,
+				9B91D6571794672F000CD766 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B91D6241794672F000CD766 = {
+			isa = PBXGroup;
+			children = (
+				9B91D6361794672F000CD766 /* WeddingVideoBooth */,
+				9B91D65A1794672F000CD766 /* WeddingVideoBoothTests */,
+				9B91D62F1794672F000CD766 /* Frameworks */,
+				9B91D62E1794672F000CD766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B91D62E1794672F000CD766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B91D62D1794672F000CD766 /* WeddingVideoBooth.app */,
+				9B91D6531794672F000CD766 /* WeddingVideoBoothTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B91D62F1794672F000CD766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B91D6301794672F000CD766 /* UIKit.framework */,
+				9B91D6321794672F000CD766 /* Foundation.framework */,
+				9B91D6341794672F000CD766 /* CoreGraphics.framework */,
+				9B91D6541794672F000CD766 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B91D6361794672F000CD766 /* WeddingVideoBooth */ = {
+			isa = PBXGroup;
+			children = (
+				9B91D63F1794672F000CD766 /* AppDelegate.h */,
+				9B91D6401794672F000CD766 /* AppDelegate.m */,
+				9B91D6481794672F000CD766 /* ViewController.h */,
+				9B91D6491794672F000CD766 /* ViewController.m */,
+				9B91D64B1794672F000CD766 /* ViewController.xib */,
+				9B91D6371794672F000CD766 /* Supporting Files */,
+			);
+			path = WeddingVideoBooth;
+			sourceTree = "<group>";
+		};
+		9B91D6371794672F000CD766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B91D6381794672F000CD766 /* WeddingVideoBooth-Info.plist */,
+				9B91D6391794672F000CD766 /* InfoPlist.strings */,
+				9B91D63C1794672F000CD766 /* main.m */,
+				9B91D63E1794672F000CD766 /* WeddingVideoBooth-Prefix.pch */,
+				9B91D6421794672F000CD766 /* Default.png */,
+				9B91D6441794672F000CD766 /* Default@2x.png */,
+				9B91D6461794672F000CD766 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B91D65A1794672F000CD766 /* WeddingVideoBoothTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B91D6601794672F000CD766 /* WeddingVideoBoothTests.h */,
+				9B91D6611794672F000CD766 /* WeddingVideoBoothTests.m */,
+				9B91D65B1794672F000CD766 /* Supporting Files */,
+			);
+			path = WeddingVideoBoothTests;
+			sourceTree = "<group>";
+		};
+		9B91D65B1794672F000CD766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B91D65C1794672F000CD766 /* WeddingVideoBoothTests-Info.plist */,
+				9B91D65D1794672F000CD766 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B91D62C1794672F000CD766 /* WeddingVideoBooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B91D6651794672F000CD766 /* Build configuration list for PBXNativeTarget "WeddingVideoBooth" */;
+			buildPhases = (
+				9B91D6291794672F000CD766 /* Sources */,
+				9B91D62A1794672F000CD766 /* Frameworks */,
+				9B91D62B1794672F000CD766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeddingVideoBooth;
+			productName = WeddingVideoBooth;
+			productReference = 9B91D62D1794672F000CD766 /* WeddingVideoBooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B91D6521794672F000CD766 /* WeddingVideoBoothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B91D66817946730000CD766 /* Build configuration list for PBXNativeTarget "WeddingVideoBoothTests" */;
+			buildPhases = (
+				9B91D64E1794672F000CD766 /* Sources */,
+				9B91D64F1794672F000CD766 /* Frameworks */,
+				9B91D6501794672F000CD766 /* Resources */,
+				9B91D6511794672F000CD766 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B91D6591794672F000CD766 /* PBXTargetDependency */,
+			);
+			name = WeddingVideoBoothTests;
+			productName = WeddingVideoBoothTests;
+			productReference = 9B91D6531794672F000CD766 /* WeddingVideoBoothTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B91D6251794672F000CD766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Frédéric Mouza";
+			};
+			buildConfigurationList = 9B91D6281794672F000CD766 /* Build configuration list for PBXProject "WeddingVideoBooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B91D6241794672F000CD766;
+			productRefGroup = 9B91D62E1794672F000CD766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B91D62C1794672F000CD766 /* WeddingVideoBooth */,
+				9B91D6521794672F000CD766 /* WeddingVideoBoothTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B91D62B1794672F000CD766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B91D63B1794672F000CD766 /* InfoPlist.strings in Resources */,
+				9B91D6431794672F000CD766 /* Default.png in Resources */,
+				9B91D6451794672F000CD766 /* Default@2x.png in Resources */,
+				9B91D6471794672F000CD766 /* Default-568h@2x.png in Resources */,
+				9B91D64D1794672F000CD766 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B91D6501794672F000CD766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B91D65F1794672F000CD766 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B91D6511794672F000CD766 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B91D6291794672F000CD766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B91D63D1794672F000CD766 /* main.m in Sources */,
+				9B91D6411794672F000CD766 /* AppDelegate.m in Sources */,
+				9B91D64A1794672F000CD766 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B91D64E1794672F000CD766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B91D6621794672F000CD766 /* WeddingVideoBoothTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B91D6591794672F000CD766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B91D62C1794672F000CD766 /* WeddingVideoBooth */;
+			targetProxy = 9B91D6581794672F000CD766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B91D6391794672F000CD766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B91D63A1794672F000CD766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B91D64B1794672F000CD766 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B91D64C1794672F000CD766 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		9B91D65D1794672F000CD766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B91D65E1794672F000CD766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B91D6631794672F000CD766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9B91D6641794672F000CD766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B91D6661794672F000CD766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeddingVideoBooth/WeddingVideoBooth-Prefix.pch";
+				INFOPLIST_FILE = "WeddingVideoBooth/WeddingVideoBooth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B91D6671794672F000CD766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeddingVideoBooth/WeddingVideoBooth-Prefix.pch";
+				INFOPLIST_FILE = "WeddingVideoBooth/WeddingVideoBooth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9B91D66917946730000CD766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeddingVideoBooth.app/WeddingVideoBooth";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeddingVideoBooth/WeddingVideoBooth-Prefix.pch";
+				INFOPLIST_FILE = "WeddingVideoBoothTests/WeddingVideoBoothTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9B91D66A17946730000CD766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeddingVideoBooth.app/WeddingVideoBooth";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeddingVideoBooth/WeddingVideoBooth-Prefix.pch";
+				INFOPLIST_FILE = "WeddingVideoBoothTests/WeddingVideoBoothTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B91D6281794672F000CD766 /* Build configuration list for PBXProject "WeddingVideoBooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B91D6631794672F000CD766 /* Debug */,
+				9B91D6641794672F000CD766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B91D6651794672F000CD766 /* Build configuration list for PBXNativeTarget "WeddingVideoBooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B91D6661794672F000CD766 /* Debug */,
+				9B91D6671794672F000CD766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B91D66817946730000CD766 /* Build configuration list for PBXNativeTarget "WeddingVideoBoothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B91D66917946730000CD766 /* Debug */,
+				9B91D66A17946730000CD766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B91D6251794672F000CD766 /* Project object */;
+}

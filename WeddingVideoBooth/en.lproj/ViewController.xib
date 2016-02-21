@@ -1,121 +1,228 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="8.00">
-	<data>
-		<int key="IBDocument.SystemTarget">1536</int>
-		<string key="IBDocument.SystemVersion">12A206j</string>
-		<string key="IBDocument.InterfaceBuilderVersion">2519</string>
-		<string key="IBDocument.AppKitVersion">1172.1</string>
-		<string key="IBDocument.HIToolboxVersion">613.00</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">1856</string>
-		</object>
-		<array key="IBDocument.IntegratedClassDependencies">
-			<string>IBProxyObject</string>
-			<string>IBUIView</string>
-		</array>
-		<array key="IBDocument.PluginDependencies">
-			<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-		</array>
-		<object class="NSMutableDictionary" key="IBDocument.Metadata">
-			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
-			<integer value="1" key="NS.object.0"/>
-		</object>
-		<array class="NSMutableArray" key="IBDocument.RootObjects" id="1000">
-			<object class="IBProxyObject" id="841351856">
-				<string key="IBProxiedObjectIdentifier">IBFilesOwner</string>
-				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-			</object>
-			<object class="IBProxyObject" id="606714003">
-				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
-				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-			</object>
-			<object class="IBUIView" id="766721923">
-				<reference key="NSNextResponder"/>
-				<int key="NSvFlags">274</int>
-				<string key="NSFrame">{{0, 20}, {768, 1004}}</string>
-				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
-				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">3</int>
-					<bytes key="NSWhite">MQA</bytes>
-					<object class="NSColorSpace" key="NSCustomColorSpace">
-						<int key="NSID">2</int>
-					</object>
-				</object>
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
-					<int key="IBUIStatusBarStyle">2</int>
-				</object>
-				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-			</object>
-		</array>
-		<object class="IBObjectContainer" key="IBDocument.Objects">
-			<array class="NSMutableArray" key="connectionRecords">
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">view</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="766721923"/>
-					</object>
-					<int key="connectionID">3</int>
-				</object>
-			</array>
-			<object class="IBMutableOrderedSet" key="objectRecords">
-				<array key="orderedObjects">
-					<object class="IBObjectRecord">
-						<int key="objectID">0</int>
-						<array key="object" id="0"/>
-						<reference key="children" ref="1000"/>
-						<nil key="parent"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">-1</int>
-						<reference key="object" ref="841351856"/>
-						<reference key="parent" ref="0"/>
-						<string key="objectName">File's Owner</string>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">-2</int>
-						<reference key="object" ref="606714003"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">2</int>
-						<reference key="object" ref="766721923"/>
-						<reference key="parent" ref="0"/>
-					</object>
-				</array>
-			</object>
-			<dictionary class="NSMutableDictionary" key="flattenedProperties">
-				<string key="-1.CustomClassName">ViewController</string>
-				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="-2.CustomClassName">UIResponder</string>
-				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			</dictionary>
-			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
-			<nil key="activeLocalization"/>
-			<dictionary class="NSMutableDictionary" key="localizations"/>
-			<nil key="sourceID"/>
-			<int key="maxID">3</int>
-		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">ViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/ViewController.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
-		<int key="IBDocument.localizationMode">0</int>
-		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
-		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<bool key="IBDocument.UseAutolayout">YES</bool>
-		<string key="IBCocoaTouchPluginVersion">1856</string>
-	</data>
-</archive>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="aView" destination="350" id="363"/>
+                <outlet property="but_play" destination="245" id="275"/>
+                <outlet property="but_record" destination="137" id="321"/>
+                <outlet property="but_save" destination="239" id="277"/>
+                <outlet property="but_trash" destination="232" id="279"/>
+                <outlet property="cacheBlanc" destination="610" id="620"/>
+                <outlet property="cam" destination="598" id="609"/>
+                <outlet property="counter1" destination="195" id="231"/>
+                <outlet property="counter2" destination="182" id="230"/>
+                <outlet property="counter3" destination="209" id="229"/>
+                <outlet property="counterVideo" destination="265" id="281"/>
+                <outlet property="imageViewTest" destination="580" id="592"/>
+                <outlet property="info" destination="331" id="347"/>
+                <outlet property="infoBut" destination="621" id="635"/>
+                <outlet property="tog_camera" destination="110" id="169"/>
+                <outlet property="view" destination="2" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="blanc.png" translatesAutoresizingMaskIntoConstraints="NO" id="580" userLabel="imageViewTest">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="598" customClass="DIYCam">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="350">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="blanc.png" translatesAutoresizingMaskIntoConstraints="NO" id="610" userLabel="cacheBlanc">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="BannerDown.png" translatesAutoresizingMaskIntoConstraints="NO" id="4" userLabel="ImageView_BotBanner">
+                    <rect key="frame" x="0.0" y="794" width="768" height="230"/>
+                </imageView>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="110" userLabel="SegCtrl_Camera">
+                    <rect key="frame" x="534" y="948" width="161" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="161" id="117"/>
+                    </constraints>
+                    <segments>
+                        <segment title="" image="appphoto-mini.png"/>
+                        <segment title="" image="camera-mini.png"/>
+                    </segments>
+                </segmentedControl>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="232" userLabel="Button_trash">
+                    <rect key="frame" x="20" y="919" width="85" height="85"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="but_trash.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="but_trash:" destination="-1" eventType="touchUpInside" id="280"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="239" userLabel="Button_save">
+                    <rect key="frame" x="113" y="919" width="85" height="85"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="but_heart.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="but_save:" destination="-1" eventType="touchUpInside" id="278"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="245" userLabel="Button_play">
+                    <rect key="frame" x="206" y="919" width="85" height="85"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="but_play.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="but_play:" destination="-1" eventType="touchUpInside" id="276"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="2_blanc.png" translatesAutoresizingMaskIntoConstraints="NO" id="182">
+                    <rect key="frame" x="342" y="155" width="85" height="85"/>
+                </imageView>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="1_blanc.png" translatesAutoresizingMaskIntoConstraints="NO" id="195">
+                    <rect key="frame" x="462" y="155" width="85" height="85"/>
+                </imageView>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="3_blanc.png" translatesAutoresizingMaskIntoConstraints="NO" id="209">
+                    <rect key="frame" x="222" y="155" width="85" height="85"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="137" userLabel="Button_record">
+                    <rect key="frame" x="342" y="919" width="85" height="85"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="but_rec.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="but_record:" destination="-1" eventType="touchUpInside" id="263"/>
+                    </connections>
+                </button>
+                <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="265" userLabel="Label_30s">
+                    <rect key="frame" x="359" y="869" width="50" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="311"/>
+                        <constraint firstAttribute="width" constant="50" id="317"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="32"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="BannerUp.png" translatesAutoresizingMaskIntoConstraints="NO" id="19" userLabel="ImageView_TopBanner">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="100"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="768" translatesAutoresizingMaskIntoConstraints="NO" id="331">
+                    <rect key="frame" x="0.0" y="460" width="768" height="105"/>
+                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="105" id="579"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">Bienvenue dans cette cabine photo. Pour commencer, choisissez soit le mode appareil photo, soit le mode camera. Puis appuyez sur le bouton enregistrement.
+Vous pouvez enregistrer jusqu'à 20 secondes !!!</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="17" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Utilisez les boutons pour revoir votre vidéo et l'enregistrer ou la supprimer." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="621" userLabel="Label - Boutons">
+                    <rect key="frame" x="0.0" y="708" width="768" height="57"/>
+                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="57" id="633"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="19" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="25"/>
+                <constraint firstItem="4" firstAttribute="bottom" secondItem="2" secondAttribute="bottom" id="38"/>
+                <constraint firstItem="4" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="39"/>
+                <constraint firstItem="19" firstAttribute="top" secondItem="2" secondAttribute="top" id="80"/>
+                <constraint firstAttribute="bottom" secondItem="137" secondAttribute="bottom" constant="20" symbolic="YES" id="146"/>
+                <constraint firstItem="110" firstAttribute="centerY" secondItem="137" secondAttribute="centerY" id="167"/>
+                <constraint firstItem="182" firstAttribute="leading" secondItem="137" secondAttribute="leading" id="192"/>
+                <constraint firstItem="195" firstAttribute="top" secondItem="182" secondAttribute="top" id="201"/>
+                <constraint firstAttribute="trailing" secondItem="195" secondAttribute="trailing" constant="221" id="208"/>
+                <constraint firstItem="209" firstAttribute="top" secondItem="182" secondAttribute="top" id="216"/>
+                <constraint firstAttribute="bottom" secondItem="232" secondAttribute="bottom" constant="20" symbolic="YES" id="237"/>
+                <constraint firstAttribute="bottom" secondItem="239" secondAttribute="bottom" constant="20" symbolic="YES" id="243"/>
+                <constraint firstAttribute="bottom" secondItem="245" secondAttribute="bottom" constant="20" symbolic="YES" id="250"/>
+                <constraint firstItem="245" firstAttribute="leading" secondItem="239" secondAttribute="trailing" constant="8" symbolic="YES" id="252"/>
+                <constraint firstItem="239" firstAttribute="leading" secondItem="232" secondAttribute="trailing" constant="8" symbolic="YES" id="253"/>
+                <constraint firstAttribute="trailing" secondItem="110" secondAttribute="trailing" constant="73" id="254"/>
+                <constraint firstItem="232" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="255"/>
+                <constraint firstItem="209" firstAttribute="top" secondItem="2" secondAttribute="top" constant="155" id="325"/>
+                <constraint firstItem="209" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="222" id="340"/>
+                <constraint firstItem="331" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="341"/>
+                <constraint firstItem="350" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="356"/>
+                <constraint firstItem="350" firstAttribute="trailing" secondItem="2" secondAttribute="trailing" id="359"/>
+                <constraint firstItem="350" firstAttribute="top" secondItem="2" secondAttribute="top" id="408"/>
+                <constraint firstItem="265" firstAttribute="centerX" secondItem="137" secondAttribute="centerX" id="410"/>
+                <constraint firstItem="137" firstAttribute="top" secondItem="265" secondAttribute="bottom" constant="8" symbolic="YES" id="412"/>
+                <constraint firstItem="331" firstAttribute="trailing" secondItem="2" secondAttribute="trailing" id="492"/>
+                <constraint firstItem="580" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="585"/>
+                <constraint firstItem="580" firstAttribute="top" secondItem="2" secondAttribute="top" id="586"/>
+                <constraint firstItem="598" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="604"/>
+                <constraint firstItem="598" firstAttribute="top" secondItem="2" secondAttribute="top" id="606"/>
+                <constraint firstItem="598" firstAttribute="trailing" secondItem="2" secondAttribute="trailing" id="607"/>
+                <constraint firstItem="610" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="615"/>
+                <constraint firstItem="610" firstAttribute="top" secondItem="2" secondAttribute="top" id="616"/>
+                <constraint firstItem="350" firstAttribute="bottom" secondItem="2" secondAttribute="bottom" id="624"/>
+                <constraint firstItem="598" firstAttribute="bottom" secondItem="2" secondAttribute="bottom" id="625"/>
+                <constraint firstItem="621" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="627"/>
+                <constraint firstItem="265" firstAttribute="centerX" secondItem="621" secondAttribute="centerX" id="629"/>
+                <constraint firstItem="331" firstAttribute="centerY" secondItem="350" secondAttribute="centerY" id="630"/>
+                <constraint firstItem="621" firstAttribute="trailing" secondItem="2" secondAttribute="trailing" id="631"/>
+                <constraint firstAttribute="bottom" secondItem="621" secondAttribute="bottom" constant="259" id="632"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1_blanc.png" width="85" height="85"/>
+        <image name="2_blanc.png" width="85" height="85"/>
+        <image name="3_blanc.png" width="85" height="85"/>
+        <image name="BannerDown.png" width="768" height="230"/>
+        <image name="BannerUp.png" width="768" height="100"/>
+        <image name="appphoto-mini.png" width="26" height="20"/>
+        <image name="blanc.png" width="768" height="1024"/>
+        <image name="but_heart.png" width="85" height="85"/>
+        <image name="but_play.png" width="85" height="85"/>
+        <image name="but_rec.png" width="85" height="85"/>
+        <image name="but_trash.png" width="85" height="85"/>
+        <image name="camera-mini.png" width="33" height="20"/>
+    </resources>
+</document>
